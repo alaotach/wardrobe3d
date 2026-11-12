@@ -1,0 +1,105 @@
+{
+  "view": "left_profile",
+  "bounding_box": {
+    "x": 21,
+    "y": 25,
+    "width": 41,
+    "height": 223
+  },
+  "silhouette": {
+    "area_px": 5891.0,
+    "perimeter_px": 523.56,
+    "aspect_ratio": 0.183857
+  },
+  "measurements": {
+    "shoulders": {
+      "y_px": 69,
+      "source": "observed_joint_midpoint",
+      "measurement": {
+        "left_px": 31,
+        "right_px": 57,
+        "width_px": 27,
+        "width_normalized": 0.28125,
+        "method": "torso_interval_clipped_by_arm_estimates",
+        "confidence": "approximate"
+      }
+    },
+    "upper_chest": {
+      "y_px": 87,
+      "source": "interpolated_between_shoulders_and_hips",
+      "measurement": {
+        "left_px": 42,
+        "right_px": 60,
+        "width_px": 19,
+        "width_normalized": 0.197917,
+        "method": "torso_interval_clipped_by_arm_estimates",
+        "confidence": "approximate"
+      }
+    },
+    "mid_torso": {
+      "y_px": 104,
+      "source": "interpolated_between_shoulders_and_hips",
+      "measurement": {
+        "left_px": 40,
+        "right_px": 56,
+        "width_px": 17,
+        "width_normalized": 0.177083,
+        "method": "torso_interval_clipped_by_arm_estimates",
+        "confidence": "approximate"
+      }
+    },
+    "waist_estimate": {
+      "y_px": 119,
+      "source": "interpolated_between_shoulders_and_hips",
+      "measurement": {
+        "left_px": 37,
+        "right_px": 56,
+        "width_px": 20,
+        "width_normalized": 0.208333,
+        "method": "torso_interval_clipped_by_arm_estimates",
+        "confidence": "approximate"
+      }
+    },
+    "hips": {
+      "y_px": 140,
+      "source": "observed_joint_midpoint",
+      "measurement": {
+        "left_px": 31,
+        "right_px": 61,
+        "width_px": 31,
+        "width_normalized": 0.322917,
+        "method": "torso_interval_clipped_by_arm_estimates",
+        "confidence": "approximate"
+      }
+    },
+    "knees": {
+      "left": {
+        "y_px": 188,
+        "measurement": {
+          "left_px": 36,
+          "right_px": 58,
+          "width_px": 23,
+          "width_normalized": 0.239583,
+          "method": "nearest_foreground_interval_to_joint",
+          "confidence": "approximate"
+        }
+      },
+      "right": null
+    },
+    "lower_legs": {
+      "left": {
+        "y_px": 233,
+        "measurement": {
+          "left_px": 39,
+          "right_px": 59,
+          "width_px": 21,
+          "width_normalized": 0.21875,
+          "method": "nearest_foreground_interval_to_joint",
+          "confidence": "approximate"
+        }
+      },
+      "right": null
+    }
+  },
+  "measurement_warning": "Clothed silhouette estimates, not anatomical body measurements or circumferences."
+}
